@@ -2,9 +2,9 @@ Stationary Store application is used to organize and manage the details of Shop,
 It will manage the stationary products sold in shop and customer details and details of staffs.
 This configuration includes ,
 
-1)Customer name,id,age, amount
-2)Staff id,name,age,salary 
-3)Shop product,price,qty
+1)cust id,name,age,amount
+2)shop product,price,qty
+3)staff id,name,age,salary
 
 The database supports five entities: 
 
