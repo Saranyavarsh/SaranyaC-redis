@@ -1,0 +1,40 @@
+127.0.0.1:6379> SADD cust : id a1 a2 a3
+(integer) 5
+127.0.0.1:6379> SADD cust : name saran ram rajesh
+(integer) 4
+127.0.0.1:6379> SADD cust : age 19 20 21
+(integer) 4
+127.0.0.1:6379> SADD cust : amount 20 30 40
+(integer) 3
+127.0.0.1:6379> SADD shop : product bags paper books pens files
+(integer) 7
+127.0.0.1:6379> SADD shop : price 300 50 168 10 20
+(integer) 6
+127.0.0.1:6379> SADD shop : qty 34 22 17 18 45
+(integer) 6
+127.0.0.1:6379> SADD staff : id s1 s2 s3
+(integer) 5
+127.0.0.1:6379> SADD staff : name rani raja aruna
+(integer) 4
+127.0.0.1:6379> SADD staff : age 35 54 45
+(integer) 4
+127.0.0.1:6379> SADD staff : salary 30000 20000 5000
+(integer) 4
+127.0.0.1:6379> SMEMBERS cust
+ 1) "21"
+ 2) "19"
+ 3) "id"
+ 4) "saran"
+ 5) "20"
+ 6) "ram"
+ 7) "a1"
+ 8) "rajesh"
+ 9) "a3"
+10) ":"
+11) "amount"
+12) "40"
+13) "a2"
+14) "name"
+15) "age"
+16) "30"
+127.0.0.1:6379>
