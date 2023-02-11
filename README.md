@@ -8,8 +8,8 @@ This configuration includes ,
 
 The database supports five entities: 
 
-1)Customer Information as cust
-2)Staff information as staff
-3)Stationary store details as shop
+1)Customer Information abbreviated as 'cust'
+2)Staff information abbreviated as 'staff'
+3)Stationary store details abbreviated as 'shop'
 
 The data is stored as a set with Entity names and attributename as key followed by values.
